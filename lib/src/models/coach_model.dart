@@ -4,6 +4,7 @@ class CoachModel {
   CoachModel(
       {this.initial,
       this.title,
+      this.nextButtonText
       this.titleTextStyle,
       this.subtitle,
       this.subtitleTextStyle,
@@ -15,6 +16,7 @@ class CoachModel {
 
   String? initial;
   String? title;
+  String? nextButtonText
   TextStyle? titleTextStyle;
   List<dynamic>? subtitle;
   TextStyle? subtitleTextStyle;

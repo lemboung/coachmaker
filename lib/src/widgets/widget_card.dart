@@ -436,7 +436,7 @@ class _WidgetCardState extends State<WidgetCard> {
                                             ElevatedButton(
                                               onPressed: onNext,
                                               child: Text(
-                                                  '${widget.buttonOptions!.buttonTitle}'),
+                                                  '${widget.model.nextButtonText ?? widget.buttonOptions!.buttonTitle}'),
                                               style: widget
                                                   .buttonOptions!.buttonStyle,
                                             ),
